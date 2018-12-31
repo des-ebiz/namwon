@@ -12,7 +12,7 @@
     <meta name="keywords" , content="keywords">
     <meta name="author" , content="author">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>코레스코 치악</title>
+    <title>지리산 중앙하이츠</title>
 
     <meta property="og:locale" content="ko_KR">
     <meta property="og:type" content="website">
@@ -30,6 +30,7 @@
     <link rel="stylesheet" href="https://cdn.rawgit.com/innks/NanumSquareRound/master/nanumsquareround.min.css">
 
     <!--공통 Css-->
+    <link rel=stylesheet href=../../static/css/common.css>
 
     <!--개별 Css-->
     <link rel=stylesheet href=../../static/css/booking/init.css>
@@ -67,10 +68,11 @@
     <div class="wrapper">
         <header class="header">
             <div class="group cont-header">
-                <h1 class="logo"><a href="../main/index.html"><img src="http://design.autopay.co.kr/joon/koresco-chiak/common/logo.png" alt="코레스코치악 로고"> <span class="skip">삼포해수욕장 삼포비치</span></a></h1>
+                <h1 class="logo"><a href="../main/index.html"><img src="http://design.autopay.co.kr/sds/namwon/img/common/logo.png" alt="지리산중앙하이츠 로고"> <span class="skip">지리산 중앙하이츠</span></a></h1>
                 <nav class="gnb">
                     <ul class="menu cf">
-                        <li class="item item-1 fst"><a href="../about/">콘도 소개</a>
+                        <!-- 각 해당 페이지 li에 on 추가 -->
+                        <li class="item item-1 fst on"><a href="../about/">콘도 소개</a>
                         </li>
                         <li class="item item-2"><a href="../gallery/">객실안내</a>
                         </li>
@@ -80,7 +82,7 @@
                         </li>
                         <li class="item item-4"><a href="../booking/booking_confirm.html">예약확인</a>
                         </li>
-                        <li class="item item-5 lst"><a href="../booking/">객실예약</a>
+                        <li class="item item-5 lst"><a href="#none">객실예약</a>
                         </li>
                         <li class="item li-evt"><a href="javascript:;" class="btn-evt" id="faq-a">무료숙박이벤트 안내</a>
                         </li>
@@ -89,6 +91,19 @@
             </div>
         </header>
         <!--//.header-->
+
+
+        <!-- ss배너 추가 -->
+        <div style="" class="rWing">
+            <!-- 단체문의페이지에서만 등장 -->
+            <!--<a href="javascript:;" onclick="javascript:faq_move();">
+        <img src="http://design.autopay.co.kr/sds/namwon/img/common/bn_group_02.png" alt="단체견적문의하기">
+    </a>-->
+            <!-- 예약페이지를 제외한 전 페이지에서 등장 -->
+            <a href="../booking/">
+                <img src="http://design.autopay.co.kr/sds/namwon/img/common/bn_group_01.png" alt="객실예약하러가기">
+            </a>
+        </div>
 
         <div class="contents">
             <h2 class="skip">예약확인</h2>
@@ -188,16 +203,16 @@
             <div class="group cont-footer">
                 <div class="split left">
                     <div class="row">
-                        <img src="http://design.autopay.co.kr/joon/koresco-chiak/common/logo_f.png" alt="코레스코치악" class="logo-f">
+                        <img src="http://design.autopay.co.kr/sds/namwon/img/common/logo_f.png" alt="지리산중앙하이츠" class="logo-f">
                         <a href="javascript: void(0);" onclick="javascript: $('#privacy-bg, .term-wrap').show();" class="privacyBtn">이용약관</a>
                         <a href="javascript: void(0);" onclick="javascript: $('#privacy-bg, .privacy-wrap').show();" class="privacyBtn">개인정보처리방침</a>
                     </div>
                     <div class="address">
-                        <span class="s-1 fz-20">프론트</span> ☎ 031-229-3601 체크인, 아웃 / 시설이용 문의 (주중/주말 06:00 ~ 02:00)
+                        <span class="s-1 fz-20">프론트</span> ☎ 063-626-8080 체크인, 아웃 / 시설이용 문의 (주중/주말 06:00 ~ 02:00)
                         <br>
-                        <span>강원도 횡성군 우천면 오원리 539-1  코레스코치악콘도</span>
+                        <span>전북 남원시 장승안길 2-9  지리산중앙하이츠콘도</span>
                         <br>
-                        <small>COPYRIGHT © KORESCO CHIAK CONDO ALL RIGHTS RESERVED.</small>
+                        <small>COPYRIGHT © JUNGANG HEIGHTS CONDO ALL RIGHTS RESERVED</small>
                     </div>
                 </div>
                 <div class="split right">
@@ -207,7 +222,7 @@
                         <br>(주중 09:30 ~ 25:00 / 주말 09:30 ~ 24:00)
                     </div>
                     <div class="row">
-                        <span class="s-1 fz-20">단체문의</span> ☎ <span class="">010-4731-1079</span>
+                        <span class="s-1 fz-20">단체문의</span> ☎ <span class="">010-8844-0409</span>
                         <br>워크샵, 학생, 산업단체 / 단체이용 관련 문의
                         <br>(주중/주말 06:00 ~ 02:00)
                     </div>
@@ -445,8 +460,6 @@
 
 
                     <strong class="privacy">
-
-
 
 9. 의견 및 불만처리</strong>
                     <br>라마다앙코르평택호텔(운영대행사 바로네트웍스)은 개인정보보호와 관련하여 이용자에게 자유롭게 의견을 개진하고 불만을 토로할 수 있는 창구를 개설하여 운영하고 있습니다.
