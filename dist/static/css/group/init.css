@@ -1,5 +1,7 @@
 @charset "UTF-8";
 /*공통스타일*/
 /* 예약 form */
-.Group .form-sec .d-cm .p-2 { color: #005eae; }
-.Group .form-sec .d-cm .p-2.cred-3 { color: #cc4e87; }
+.Group .form-sec .d-cm .p-2 {
+  color: #005eae; }
+  .Group .form-sec .d-cm .p-2.cred-3 {
+    color: #cc4e87; }
