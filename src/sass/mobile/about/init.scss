@@ -1,0 +1,17 @@
+@charset "utf-8";
+
+// common
+@import "../parts/common";
+
+
+.cont-intro {
+	.intro-area {
+		.split {
+			&.split-2 {
+				.p-1 {
+					color: $fg-blue-3;
+				}
+			}
+		}
+	}
+}

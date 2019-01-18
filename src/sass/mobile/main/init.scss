@@ -1,0 +1,41 @@
+@charset "utf-8";
+
+// common
+@import "../parts/common";
+
+// Scss 한줄 주석
+// css 코드로 변경될 때, 해석되지 않습니다.
+/* Scss 여러줄 주석 CSS 코드로 변경될 때, 해석됩니다. */
+
+/*----------------
+	콘텐츠 시작
+------------------*/
+%btn-type {
+	background: $bg-blue-4;
+}
+
+/*메인 비주얼*/
+.cont-visual {
+	.visual {
+		.slide {
+			&.slide-1 {
+				background: url(http://design.autopay.co.kr/sds/namwon/img/m/main/visual_1.jpg) no-repeat center / cover;
+			}
+			&.slide-2 {
+				background: url(http://design.autopay.co.kr/sds/namwon/img/m/main/visual_2.jpg) no-repeat center / cover;
+			}
+		}
+	}
+} 
+/*객실 / 부대시설 안내*/
+.cont-guide {
+	padding: 10px 0;
+	.split {
+		.half {
+            margin-bottom: 10px;
+			.btn-detail {
+				@extend %btn-type;
+			}
+		}
+	}	
+}

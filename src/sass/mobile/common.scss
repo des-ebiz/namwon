@@ -1,0 +1,35 @@
+@charset "utf-8";
+
+// reset
+//@import "reset";
+
+@import "./parts/common";
+
+/*@import url(http://cdn.rawgit.com/hiun/NanumSquare/master/nanumsquare.css);
+@import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css);
+@import url(http://static.go.co.kr/css/faq_m-v1.1.css);*/
+
+
+/*----------------------------------------------------------------------*/
+/*공통 서브비쥬얼*/
+.contents {
+	.cont-subVisual {
+		background: url(http://design.autopay.co.kr/sds/namwon/img/m/common/subVisual.jpg) no-repeat center / cover;
+	}
+}
+
+/* rwing배너 */
+.rWing {
+    z-index: 2;
+    position: fixed;
+    width: 70px;
+    margin-top: 13px;
+    right: 7px;
+    a {
+        position: relative;
+        display: block;
+        img {
+            
+        }
+    }
+}

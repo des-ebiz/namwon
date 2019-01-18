@@ -1,0 +1,20 @@
+@charset "utf-8";
+
+// common
+@import "../parts/common";
+
+%btn-type {
+	background: $bg-blue-4;
+}
+
+.cont-gallery {
+	.split {
+		&.split-2 {
+			.row-btn {
+				.btn-booking {
+					@extend %btn-type;
+				}
+			}
+		}
+	}
+}
