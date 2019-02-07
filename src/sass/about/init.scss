@@ -14,6 +14,26 @@
 			.s-h {
 				color: $fg-blue-3;
 			}
+            .s-d {
+                position: relative;
+                padding-left: 30px;
+			    line-height: $lh-4;
+                color: $fg-black-2;
+
+                &:before {
+                    content: '';
+                    display: block;
+                    position: absolute;
+                    width: 5px;
+                    height: 1px;
+                    top: 12px;
+                    left: 18px;
+                    background: $bg-black-2;
+                }
+            }
+		}
+		.p-1 + .p-1 {
+			margin-top: 20px;
 		}
 	}
 }

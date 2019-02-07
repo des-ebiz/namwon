@@ -5,3 +5,21 @@
 
 .cont-location .info .p-1 .s-h {
   color: #005eae; }
+
+.cont-location .info .p-1 .s-d {
+  position: relative;
+  padding-left: 30px;
+  line-height: 1.7;
+  color: #5a5959; }
+  .cont-location .info .p-1 .s-d:before {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 5px;
+    height: 1px;
+    top: 12px;
+    left: 18px;
+    background: #5a5959; }
+
+.cont-location .info .p-1 + .p-1 {
+  margin-top: 20px; }

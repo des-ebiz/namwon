@@ -1,0 +1,16 @@
+@charset "UTF-8";
+/*공통스타일*/
+.cont-intro .intro-area .split.split-2 .p-1 {
+  color: #005eae; }
+  .cont-intro .intro-area .split.split-2 .p-1 .s-d {
+    position: relative;
+    padding-left: 18px; }
+    .cont-intro .intro-area .split.split-2 .p-1 .s-d:before {
+      content: '';
+      display: block;
+      position: absolute;
+      width: 4px;
+      height: 1px;
+      top: 7px;
+      left: 11px;
+      background: #000; }
