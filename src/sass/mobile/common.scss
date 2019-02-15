@@ -11,6 +11,35 @@
 
 
 /*----------------------------------------------------------------------*/
+/* header */
+.header {
+	.cont-header {
+		.gnb {
+            .menu {
+				> li {
+					&.item-0 {
+						background: $bg-blue-5;
+                        //190215
+                        .menu-btn-box {
+                            a {
+                                color: #407cc5;
+                            }
+                        }
+					}
+				}
+				.rArrow {
+					&:after {
+						border-color: #568ee3;
+					}
+				}
+                .i-x {
+                    top: 14px;
+                }
+			}
+		}
+	}
+}
+
 /*공통 서브비쥬얼*/
 .contents {
 	.cont-subVisual {

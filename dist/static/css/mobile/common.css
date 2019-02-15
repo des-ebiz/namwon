@@ -4,6 +4,18 @@
 @import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css);
 @import url(http://static.go.co.kr/css/faq_m-v1.1.css);*/
 /*----------------------------------------------------------------------*/
+/* header */
+.header .cont-header .gnb .menu > li.item-0 {
+  background: #568ee3; }
+  .header .cont-header .gnb .menu > li.item-0 .menu-btn-box a {
+    color: #407cc5; }
+
+.header .cont-header .gnb .menu .rArrow:after {
+  border-color: #568ee3; }
+
+.header .cont-header .gnb .menu .i-x {
+  top: 14px; }
+
 /*공통 서브비쥬얼*/
 .contents .cont-subVisual {
   background: url(http://design.autopay.co.kr/sds/namwon/img/m/common/subVisual.jpg) no-repeat center/cover; }
