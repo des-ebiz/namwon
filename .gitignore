@@ -9,6 +9,7 @@ img/
 .sass-cache/
 dist/
 src/**/bourbon/
+gulpfile.js
 
 #fontFile
 *.ttf
